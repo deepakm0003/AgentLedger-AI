@@ -1,0 +1,27 @@
+[
+  {
+    "id": "demo-user-1",
+    "name": "Demo User",
+    "email": "demo@agentledger.ai",
+    "role": "COMPLIANCE",
+    "passwordHash": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj4J/8KzKz2K",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "image": null
+  },
+  {
+    "id": "user-1757851120035-csnqm9t8j",
+    "name": "Deepak meena",
+    "email": "deepak88@iiitd.ac.in",
+    "role": "COMPLIANCE",
+    "passwordHash": "$2a$12$4NGOi6ejSIQplBGyMDcnCe3ECqVLf/jQZZNsmD0JO6m1ga6YWXir6",
+    "createdAt": "2025-09-14T11:58:40.035Z"
+  },
+  {
+    "id": "user-1757865479970-q8uup9asc",
+    "name": "Deepak meena",
+    "email": "deepak8000468060@gmail.com",
+    "role": "COMPLIANCE",
+    "passwordHash": "$2a$12$RupqBLNcDITbVf96YkltIOrEJ2/oy/zNoprKYxnLEgXh0eKM.s8Ei",
+    "createdAt": "2025-09-14T15:57:59.970Z"
+  }
+]

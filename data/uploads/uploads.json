@@ -1,0 +1,24 @@
+[
+  {
+    "id": "rszimobmr",
+    "filename": "fraud-reports-2025-09-14 (1).csv",
+    "originalName": "fraud-reports-2025-09-14 (1).csv",
+    "size": 714,
+    "type": "text/csv",
+    "content": "{\"type\":\"csv\",\"headers\":[\"Report ID\",\"Title\",\"Risk Level\",\"Risk Score\",\"Amount\",\"Description\",\"Explanation\",\"Created By\",\"Created At\"],\"rows\":[[\"\\\"cmfjh1nfj0009j59rwx5fnxmf\\\"\",\"\\\"Fraud Analysis: user_12345 • $1234\\\"\",\"\\\"undefined\\\"\",\"\\\"20\\\"\",\"\\\"1234\\\"\",\"\\\"asds\\\"\",\"\\\"Heuristic score without LLM (set OPENAI_API_KEY for AI analysis).\\\"\",\"\\\"Deepak meena\\\"\",\"\\\"2025-09-14T09:07:12.895Z\\\"\"],[\"\\\"cmfjh1n9r0007j59rlaiu1qnc\\\"\",\"\\\"Fraud Analysis: user_12345 • $1234\\\"\",\"\\\"undefined\\\"\",\"\\\"20\\\"\",\"\\\"1234\\\"\",\"\\\"asds\\\"\",\"\\\"Heuristic score without LLM (set OPENAI_API_KEY for AI analysis).\\\"\",\"\\\"Deepak meena\\\"\",\"\\\"2025-09-14T09:07:12.680Z\\\"\"],[\"\\\"cmfjh1msq0005j59rrqbabjgy\\\"\",\"\\\"Fraud Analysis: user_12345 • $1234\\\"\",\"\\\"undefined\\\"\",\"\\\"20\\\"\",\"\\\"1234\\\"\",\"\\\"asds\\\"\",\"\\\"Heuristic score without LLM (set OPENAI_API_KEY for AI analysis).\\\"\",\"\\\"Deepak meena\\\"\",\"\\\"2025-09-14T09:07:12.170Z\\\"\"]]}",
+    "embedding": "[]",
+    "uploadedBy": "user-1757851120035-csnqm9t8j",
+    "createdAt": "2025-09-14T12:01:51.487Z"
+  },
+  {
+    "id": "pcnfc596l",
+    "filename": "fraud-reports-2025-09-14 (1).csv",
+    "originalName": "fraud-reports-2025-09-14 (1).csv",
+    "size": 714,
+    "type": "text/csv",
+    "content": "{\"type\":\"csv\",\"headers\":[\"Report ID\",\"Title\",\"Risk Level\",\"Risk Score\",\"Amount\",\"Description\",\"Explanation\",\"Created By\",\"Created At\"],\"rows\":[[\"\\\"cmfjh1nfj0009j59rwx5fnxmf\\\"\",\"\\\"Fraud Analysis: user_12345 • $1234\\\"\",\"\\\"undefined\\\"\",\"\\\"20\\\"\",\"\\\"1234\\\"\",\"\\\"asds\\\"\",\"\\\"Heuristic score without LLM (set OPENAI_API_KEY for AI analysis).\\\"\",\"\\\"Deepak meena\\\"\",\"\\\"2025-09-14T09:07:12.895Z\\\"\"],[\"\\\"cmfjh1n9r0007j59rlaiu1qnc\\\"\",\"\\\"Fraud Analysis: user_12345 • $1234\\\"\",\"\\\"undefined\\\"\",\"\\\"20\\\"\",\"\\\"1234\\\"\",\"\\\"asds\\\"\",\"\\\"Heuristic score without LLM (set OPENAI_API_KEY for AI analysis).\\\"\",\"\\\"Deepak meena\\\"\",\"\\\"2025-09-14T09:07:12.680Z\\\"\"],[\"\\\"cmfjh1msq0005j59rrqbabjgy\\\"\",\"\\\"Fraud Analysis: user_12345 • $1234\\\"\",\"\\\"undefined\\\"\",\"\\\"20\\\"\",\"\\\"1234\\\"\",\"\\\"asds\\\"\",\"\\\"Heuristic score without LLM (set OPENAI_API_KEY for AI analysis).\\\"\",\"\\\"Deepak meena\\\"\",\"\\\"2025-09-14T09:07:12.170Z\\\"\"]]}",
+    "embedding": "[]",
+    "uploadedBy": "user-1757851120035-csnqm9t8j",
+    "createdAt": "2025-09-14T12:02:34.342Z"
+  }
+]

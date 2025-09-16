@@ -1,0 +1,818 @@
+[
+  {
+    "id": "txn_001",
+    "amount": 5000,
+    "description": "URGENT: Wire transfer to unknown account - immediate processing required",
+    "category": "wire_transfer_fraud",
+    "riskLevel": "CRITICAL",
+    "keywords": ["urgent", "wire", "transfer", "unknown", "immediate", "processing"]
+  },
+  {
+    "id": "txn_002",
+    "amount": 25000,
+    "description": "Cryptocurrency purchase - Bitcoin transaction to external wallet",
+    "category": "crypto_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["cryptocurrency", "bitcoin", "external", "wallet", "crypto"]
+  },
+  {
+    "id": "txn_003",
+    "amount": 15000,
+    "description": "International money transfer to high-risk country",
+    "category": "international_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["international", "money", "transfer", "high-risk", "country"]
+  },
+  {
+    "id": "txn_004",
+    "amount": 8500,
+    "description": "Duplicate payment processing - refund requested",
+    "category": "duplicate_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["duplicate", "payment", "processing", "refund", "requested"]
+  },
+  {
+    "id": "txn_005",
+    "amount": 12000,
+    "description": "Credit card fraud - unauthorized purchase detected",
+    "category": "credit_card_fraud",
+    "riskLevel": "CRITICAL",
+    "keywords": ["credit", "card", "fraud", "unauthorized", "purchase", "detected"]
+  },
+  {
+    "id": "txn_006",
+    "amount": 7500,
+    "description": "Phishing attack - fake bank website transaction",
+    "category": "phishing_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["phishing", "attack", "fake", "bank", "website", "transaction"]
+  },
+  {
+    "id": "txn_007",
+    "amount": 18000,
+    "description": "Identity theft - account takeover attempt",
+    "category": "identity_theft",
+    "riskLevel": "CRITICAL",
+    "keywords": ["identity", "theft", "account", "takeover", "attempt"]
+  },
+  {
+    "id": "txn_008",
+    "amount": 9500,
+    "description": "Money laundering - suspicious transaction pattern",
+    "category": "money_laundering",
+    "riskLevel": "HIGH",
+    "keywords": ["money", "laundering", "suspicious", "transaction", "pattern"]
+  },
+  {
+    "id": "txn_009",
+    "amount": 6000,
+    "description": "Social engineering - fake charity donation",
+    "category": "social_engineering",
+    "riskLevel": "MEDIUM",
+    "keywords": ["social", "engineering", "fake", "charity", "donation"]
+  },
+  {
+    "id": "txn_010",
+    "amount": 22000,
+    "description": "Business email compromise - fake vendor payment",
+    "category": "business_email_compromise",
+    "riskLevel": "HIGH",
+    "keywords": ["business", "email", "compromise", "fake", "vendor", "payment"]
+  },
+  {
+    "id": "txn_011",
+    "amount": 3500,
+    "description": "ATM skimming - unauthorized cash withdrawal",
+    "category": "atm_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["atm", "skimming", "unauthorized", "cash", "withdrawal"]
+  },
+  {
+    "id": "txn_012",
+    "amount": 14000,
+    "description": "Investment fraud - fake trading platform",
+    "category": "investment_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["investment", "fraud", "fake", "trading", "platform"]
+  },
+  {
+    "id": "txn_013",
+    "amount": 4500,
+    "description": "Romance scam - fake relationship money request",
+    "category": "romance_scam",
+    "riskLevel": "MEDIUM",
+    "keywords": ["romance", "scam", "fake", "relationship", "money", "request"]
+  },
+  {
+    "id": "txn_014",
+    "amount": 16500,
+    "description": "Tech support scam - fake software purchase",
+    "category": "tech_support_scam",
+    "riskLevel": "HIGH",
+    "keywords": ["tech", "support", "scam", "fake", "software", "purchase"]
+  },
+  {
+    "id": "txn_015",
+    "amount": 8000,
+    "description": "Lottery scam - fake prize notification fee",
+    "category": "lottery_scam",
+    "riskLevel": "MEDIUM",
+    "keywords": ["lottery", "scam", "fake", "prize", "notification", "fee"]
+  },
+  {
+    "id": "txn_016",
+    "amount": 11000,
+    "description": "Bank fraud - unauthorized account access",
+    "category": "bank_fraud",
+    "riskLevel": "CRITICAL",
+    "keywords": ["bank", "fraud", "unauthorized", "account", "access"]
+  },
+  {
+    "id": "txn_017",
+    "amount": 7200,
+    "description": "Online shopping fraud - fake merchant transaction",
+    "category": "online_shopping_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["online", "shopping", "fraud", "fake", "merchant", "transaction"]
+  },
+  {
+    "id": "txn_018",
+    "amount": 19500,
+    "description": "Insurance fraud - fake claim payment",
+    "category": "insurance_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["insurance", "fraud", "fake", "claim", "payment"]
+  },
+  {
+    "id": "txn_019",
+    "amount": 5500,
+    "description": "Tax fraud - fake refund processing",
+    "category": "tax_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["tax", "fraud", "fake", "refund", "processing"]
+  },
+  {
+    "id": "txn_020",
+    "amount": 13000,
+    "description": "Healthcare fraud - fake medical billing",
+    "category": "healthcare_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["healthcare", "fraud", "fake", "medical", "billing"]
+  },
+  {
+    "id": "txn_021",
+    "amount": 4200,
+    "description": "Real estate fraud - fake property investment",
+    "category": "real_estate_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["real", "estate", "fraud", "fake", "property", "investment"]
+  },
+  {
+    "id": "txn_022",
+    "amount": 9800,
+    "description": "Employment fraud - fake job opportunity fee",
+    "category": "employment_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["employment", "fraud", "fake", "job", "opportunity", "fee"]
+  },
+  {
+    "id": "txn_023",
+    "amount": 15500,
+    "description": "Education fraud - fake scholarship payment",
+    "category": "education_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["education", "fraud", "fake", "scholarship", "payment"]
+  },
+  {
+    "id": "txn_024",
+    "amount": 6800,
+    "description": "Travel fraud - fake vacation booking",
+    "category": "travel_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["travel", "fraud", "fake", "vacation", "booking"]
+  },
+  {
+    "id": "txn_025",
+    "amount": 11200,
+    "description": "Charity fraud - fake disaster relief donation",
+    "category": "charity_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["charity", "fraud", "fake", "disaster", "relief", "donation"]
+  },
+  {
+    "id": "txn_026",
+    "amount": 27500,
+    "description": "Ponzi scheme - fake investment returns",
+    "category": "ponzi_scheme",
+    "riskLevel": "CRITICAL",
+    "keywords": ["ponzi", "scheme", "fake", "investment", "returns"]
+  },
+  {
+    "id": "txn_027",
+    "amount": 8300,
+    "description": "Pyramid scheme - fake recruitment bonus",
+    "category": "pyramid_scheme",
+    "riskLevel": "HIGH",
+    "keywords": ["pyramid", "scheme", "fake", "recruitment", "bonus"]
+  },
+  {
+    "id": "txn_028",
+    "amount": 4700,
+    "description": "Advance fee fraud - fake lottery winnings",
+    "category": "advance_fee_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["advance", "fee", "fraud", "fake", "lottery", "winnings"]
+  },
+  {
+    "id": "txn_029",
+    "amount": 18200,
+    "description": "Telecom fraud - fake service upgrade",
+    "category": "telecom_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["telecom", "fraud", "fake", "service", "upgrade"]
+  },
+  {
+    "id": "txn_030",
+    "amount": 6400,
+    "description": "Utility fraud - fake bill payment",
+    "category": "utility_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["utility", "fraud", "fake", "bill", "payment"]
+  },
+  {
+    "id": "txn_031",
+    "amount": 15600,
+    "description": "Government fraud - fake tax payment",
+    "category": "government_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["government", "fraud", "fake", "tax", "payment"]
+  },
+  {
+    "id": "txn_032",
+    "amount": 7900,
+    "description": "Banking fraud - fake account verification",
+    "category": "banking_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["banking", "fraud", "fake", "account", "verification"]
+  },
+  {
+    "id": "txn_033",
+    "amount": 12300,
+    "description": "Credit union fraud - fake loan application",
+    "category": "credit_union_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["credit", "union", "fraud", "fake", "loan", "application"]
+  },
+  {
+    "id": "txn_034",
+    "amount": 5800,
+    "description": "Payday loan fraud - fake emergency loan",
+    "category": "payday_loan_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["payday", "loan", "fraud", "fake", "emergency", "loan"]
+  },
+  {
+    "id": "txn_035",
+    "amount": 16700,
+    "description": "Mortgage fraud - fake home loan",
+    "category": "mortgage_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["mortgage", "fraud", "fake", "home", "loan"]
+  },
+  {
+    "id": "txn_036",
+    "amount": 9100,
+    "description": "Auto loan fraud - fake vehicle purchase",
+    "category": "auto_loan_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["auto", "loan", "fraud", "fake", "vehicle", "purchase"]
+  },
+  {
+    "id": "txn_037",
+    "amount": 14200,
+    "description": "Student loan fraud - fake education payment",
+    "category": "student_loan_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["student", "loan", "fraud", "fake", "education", "payment"]
+  },
+  {
+    "id": "txn_038",
+    "amount": 6600,
+    "description": "Personal loan fraud - fake emergency fund",
+    "category": "personal_loan_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["personal", "loan", "fraud", "fake", "emergency", "fund"]
+  },
+  {
+    "id": "txn_039",
+    "amount": 18900,
+    "description": "Business loan fraud - fake company investment",
+    "category": "business_loan_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["business", "loan", "fraud", "fake", "company", "investment"]
+  },
+  {
+    "id": "txn_040",
+    "amount": 5100,
+    "description": "Credit card fraud - unauthorized online purchase",
+    "category": "credit_card_online_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["credit", "card", "fraud", "unauthorized", "online", "purchase"]
+  },
+  {
+    "id": "txn_041",
+    "amount": 13800,
+    "description": "Debit card fraud - fake ATM withdrawal",
+    "category": "debit_card_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["debit", "card", "fraud", "fake", "atm", "withdrawal"]
+  },
+  {
+    "id": "txn_042",
+    "amount": 7600,
+    "description": "Prepaid card fraud - fake gift card purchase",
+    "category": "prepaid_card_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["prepaid", "card", "fraud", "fake", "gift", "card", "purchase"]
+  },
+  {
+    "id": "txn_043",
+    "amount": 16400,
+    "description": "Digital wallet fraud - fake mobile payment",
+    "category": "digital_wallet_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["digital", "wallet", "fraud", "fake", "mobile", "payment"]
+  },
+  {
+    "id": "txn_044",
+    "amount": 8900,
+    "description": "Cryptocurrency wallet fraud - fake Bitcoin transfer",
+    "category": "crypto_wallet_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["cryptocurrency", "wallet", "fraud", "fake", "bitcoin", "transfer"]
+  },
+  {
+    "id": "txn_045",
+    "amount": 5400,
+    "description": "Peer-to-peer fraud - fake payment app transfer",
+    "category": "peer_to_peer_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["peer", "to", "peer", "fraud", "fake", "payment", "app", "transfer"]
+  },
+  {
+    "id": "txn_046",
+    "amount": 17200,
+    "description": "Online banking fraud - fake account transfer",
+    "category": "online_banking_fraud",
+    "riskLevel": "CRITICAL",
+    "keywords": ["online", "banking", "fraud", "fake", "account", "transfer"]
+  },
+  {
+    "id": "txn_047",
+    "amount": 7300,
+    "description": "Mobile banking fraud - fake app transaction",
+    "category": "mobile_banking_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["mobile", "banking", "fraud", "fake", "app", "transaction"]
+  },
+  {
+    "id": "txn_048",
+    "amount": 12800,
+    "description": "ATM fraud - fake cash withdrawal",
+    "category": "atm_cash_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["atm", "fraud", "fake", "cash", "withdrawal"]
+  },
+  {
+    "id": "txn_049",
+    "amount": 6100,
+    "description": "Check fraud - fake check cashing",
+    "category": "check_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["check", "fraud", "fake", "check", "cashing"]
+  },
+  {
+    "id": "txn_050",
+    "amount": 15100,
+    "description": "Wire fraud - fake international transfer",
+    "category": "wire_fraud",
+    "riskLevel": "CRITICAL",
+    "keywords": ["wire", "fraud", "fake", "international", "transfer"]
+  },
+  {
+    "id": "txn_051",
+    "amount": 8200,
+    "description": "ACH fraud - fake direct deposit",
+    "category": "ach_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["ach", "fraud", "fake", "direct", "deposit"]
+  },
+  {
+    "id": "txn_052",
+    "amount": 4900,
+    "description": "SWIFT fraud - fake international wire",
+    "category": "swift_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["swift", "fraud", "fake", "international", "wire"]
+  },
+  {
+    "id": "txn_053",
+    "amount": 13600,
+    "description": "SEPA fraud - fake European transfer",
+    "category": "sepa_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["sepa", "fraud", "fake", "european", "transfer"]
+  },
+  {
+    "id": "txn_054",
+    "amount": 7100,
+    "description": "Faster Payments fraud - fake UK transfer",
+    "category": "faster_payments_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["faster", "payments", "fraud", "fake", "uk", "transfer"]
+  },
+  {
+    "id": "txn_055",
+    "amount": 16300,
+    "description": "Fedwire fraud - fake US wire transfer",
+    "category": "fedwire_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["fedwire", "fraud", "fake", "us", "wire", "transfer"]
+  },
+  {
+    "id": "txn_056",
+    "amount": 8700,
+    "description": "CHIPS fraud - fake clearing house payment",
+    "category": "chips_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["chips", "fraud", "fake", "clearing", "house", "payment"]
+  },
+  {
+    "id": "txn_057",
+    "amount": 5200,
+    "description": "RTGS fraud - fake real-time gross settlement",
+    "category": "rtgs_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["rtgs", "fraud", "fake", "real", "time", "gross", "settlement"]
+  },
+  {
+    "id": "txn_058",
+    "amount": 14400,
+    "description": "NEFT fraud - fake national electronic transfer",
+    "category": "neft_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["neft", "fraud", "fake", "national", "electronic", "transfer"]
+  },
+  {
+    "id": "txn_059",
+    "amount": 6800,
+    "description": "IMPS fraud - fake immediate payment service",
+    "category": "imps_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["imps", "fraud", "fake", "immediate", "payment", "service"]
+  },
+  {
+    "id": "txn_060",
+    "amount": 15900,
+    "description": "UPI fraud - fake unified payment interface",
+    "category": "upi_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["upi", "fraud", "fake", "unified", "payment", "interface"]
+  },
+  {
+    "id": "txn_061",
+    "amount": 7800,
+    "description": "PayPal fraud - fake online payment",
+    "category": "paypal_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["paypal", "fraud", "fake", "online", "payment"]
+  },
+  {
+    "id": "txn_062",
+    "amount": 13100,
+    "description": "Stripe fraud - fake payment processing",
+    "category": "stripe_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["stripe", "fraud", "fake", "payment", "processing"]
+  },
+  {
+    "id": "txn_063",
+    "amount": 5600,
+    "description": "Square fraud - fake point of sale transaction",
+    "category": "square_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["square", "fraud", "fake", "point", "of", "sale", "transaction"]
+  },
+  {
+    "id": "txn_064",
+    "amount": 14700,
+    "description": "Venmo fraud - fake peer-to-peer payment",
+    "category": "venmo_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["venmo", "fraud", "fake", "peer", "to", "peer", "payment"]
+  },
+  {
+    "id": "txn_065",
+    "amount": 6900,
+    "description": "Cash App fraud - fake mobile payment",
+    "category": "cash_app_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["cash", "app", "fraud", "fake", "mobile", "payment"]
+  },
+  {
+    "id": "txn_066",
+    "amount": 16200,
+    "description": "Zelle fraud - fake instant payment",
+    "category": "zelle_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["zelle", "fraud", "fake", "instant", "payment"]
+  },
+  {
+    "id": "txn_067",
+    "amount": 8300,
+    "description": "Apple Pay fraud - fake contactless payment",
+    "category": "apple_pay_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["apple", "pay", "fraud", "fake", "contactless", "payment"]
+  },
+  {
+    "id": "txn_068",
+    "amount": 12500,
+    "description": "Google Pay fraud - fake mobile wallet transaction",
+    "category": "google_pay_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["google", "pay", "fraud", "fake", "mobile", "wallet", "transaction"]
+  },
+  {
+    "id": "txn_069",
+    "amount": 5800,
+    "description": "Samsung Pay fraud - fake NFC payment",
+    "category": "samsung_pay_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["samsung", "pay", "fraud", "fake", "nfc", "payment"]
+  },
+  {
+    "id": "txn_070",
+    "amount": 15400,
+    "description": "Amazon Pay fraud - fake e-commerce payment",
+    "category": "amazon_pay_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["amazon", "pay", "fraud", "fake", "e-commerce", "payment"]
+  },
+  {
+    "id": "txn_071",
+    "amount": 7200,
+    "description": "Shopify fraud - fake online store payment",
+    "category": "shopify_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["shopify", "fraud", "fake", "online", "store", "payment"]
+  },
+  {
+    "id": "txn_072",
+    "amount": 13900,
+    "description": "WooCommerce fraud - fake WordPress payment",
+    "category": "woocommerce_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["woocommerce", "fraud", "fake", "wordpress", "payment"]
+  },
+  {
+    "id": "txn_073",
+    "amount": 6400,
+    "description": "Magento fraud - fake e-commerce transaction",
+    "category": "magento_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["magento", "fraud", "fake", "e-commerce", "transaction"]
+  },
+  {
+    "id": "txn_074",
+    "amount": 16800,
+    "description": "BigCommerce fraud - fake online marketplace payment",
+    "category": "bigcommerce_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["bigcommerce", "fraud", "fake", "online", "marketplace", "payment"]
+  },
+  {
+    "id": "txn_075",
+    "amount": 8100,
+    "description": "PrestaShop fraud - fake online store transaction",
+    "category": "prestashop_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["prestashop", "fraud", "fake", "online", "store", "transaction"]
+  },
+  {
+    "id": "txn_076",
+    "amount": 14600,
+    "description": "OpenCart fraud - fake shopping cart payment",
+    "category": "opencart_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["opencart", "fraud", "fake", "shopping", "cart", "payment"]
+  },
+  {
+    "id": "txn_077",
+    "amount": 6700,
+    "description": "Zen Cart fraud - fake online shopping transaction",
+    "category": "zen_cart_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["zen", "cart", "fraud", "fake", "online", "shopping", "transaction"]
+  },
+  {
+    "id": "txn_078",
+    "amount": 15700,
+    "description": "osCommerce fraud - fake e-commerce platform payment",
+    "category": "oscommerce_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["oscommerce", "fraud", "fake", "e-commerce", "platform", "payment"]
+  },
+  {
+    "id": "txn_079",
+    "amount": 5900,
+    "description": "CubeCart fraud - fake online retail transaction",
+    "category": "cubecart_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["cubecart", "fraud", "fake", "online", "retail", "transaction"]
+  },
+  {
+    "id": "txn_080",
+    "amount": 17100,
+    "description": "X-Cart fraud - fake e-commerce solution payment",
+    "category": "xcart_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["x-cart", "fraud", "fake", "e-commerce", "solution", "payment"]
+  },
+  {
+    "id": "txn_081",
+    "amount": 7400,
+    "description": "CS-Cart fraud - fake online store platform transaction",
+    "category": "cscart_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["cs-cart", "fraud", "fake", "online", "store", "platform", "transaction"]
+  },
+  {
+    "id": "txn_082",
+    "amount": 13200,
+    "description": "AbanteCart fraud - fake shopping cart system payment",
+    "category": "abantecart_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["abantecart", "fraud", "fake", "shopping", "cart", "system", "payment"]
+  },
+  {
+    "id": "txn_083",
+    "amount": 6200,
+    "description": "Loaded fraud - fake e-commerce platform transaction",
+    "category": "loaded_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["loaded", "fraud", "fake", "e-commerce", "platform", "transaction"]
+  },
+  {
+    "id": "txn_084",
+    "amount": 15500,
+    "description": "PinnacleCart fraud - fake online store solution payment",
+    "category": "pinnaclecart_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["pinnaclecart", "fraud", "fake", "online", "store", "solution", "payment"]
+  },
+  {
+    "id": "txn_085",
+    "amount": 7800,
+    "description": "UltraCart fraud - fake e-commerce platform transaction",
+    "category": "ultracart_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["ultracart", "fraud", "fake", "e-commerce", "platform", "transaction"]
+  },
+  {
+    "id": "txn_086",
+    "amount": 14100,
+    "description": "3DCart fraud - fake online shopping cart payment",
+    "category": "3dcart_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["3dcart", "fraud", "fake", "online", "shopping", "cart", "payment"]
+  },
+  {
+    "id": "txn_087",
+    "amount": 6500,
+    "description": "Volusion fraud - fake e-commerce solution transaction",
+    "category": "volusion_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["volusion", "fraud", "fake", "e-commerce", "solution", "transaction"]
+  },
+  {
+    "id": "txn_088",
+    "amount": 16900,
+    "description": "Webflow fraud - fake website builder payment",
+    "category": "webflow_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["webflow", "fraud", "fake", "website", "builder", "payment"]
+  },
+  {
+    "id": "txn_089",
+    "amount": 8300,
+    "description": "Squarespace fraud - fake website platform transaction",
+    "category": "squarespace_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["squarespace", "fraud", "fake", "website", "platform", "transaction"]
+  },
+  {
+    "id": "txn_090",
+    "amount": 12600,
+    "description": "Wix fraud - fake website builder payment",
+    "category": "wix_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["wix", "fraud", "fake", "website", "builder", "payment"]
+  },
+  {
+    "id": "txn_091",
+    "amount": 5700,
+    "description": "Weebly fraud - fake online website transaction",
+    "category": "weebly_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["weebly", "fraud", "fake", "online", "website", "transaction"]
+  },
+  {
+    "id": "txn_092",
+    "amount": 15800,
+    "description": "WordPress fraud - fake CMS platform payment",
+    "category": "wordpress_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["wordpress", "fraud", "fake", "cms", "platform", "payment"]
+  },
+  {
+    "id": "txn_093",
+    "amount": 7100,
+    "description": "Drupal fraud - fake content management transaction",
+    "category": "drupal_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["drupal", "fraud", "fake", "content", "management", "transaction"]
+  },
+  {
+    "id": "txn_094",
+    "amount": 14300,
+    "description": "Joomla fraud - fake CMS platform payment",
+    "category": "joomla_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["joomla", "fraud", "fake", "cms", "platform", "payment"]
+  },
+  {
+    "id": "txn_095",
+    "amount": 6600,
+    "description": "Concrete5 fraud - fake website builder transaction",
+    "category": "concrete5_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["concrete5", "fraud", "fake", "website", "builder", "transaction"]
+  },
+  {
+    "id": "txn_096",
+    "amount": 16400,
+    "description": "ExpressionEngine fraud - fake CMS platform payment",
+    "category": "expressionengine_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["expressionengine", "fraud", "fake", "cms", "platform", "payment"]
+  },
+  {
+    "id": "txn_097",
+    "amount": 7900,
+    "description": "Craft CMS fraud - fake content management transaction",
+    "category": "craftcms_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["craft", "cms", "fraud", "fake", "content", "management", "transaction"]
+  },
+  {
+    "id": "txn_098",
+    "amount": 13400,
+    "description": "Grav fraud - fake flat-file CMS payment",
+    "category": "grav_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["grav", "fraud", "fake", "flat-file", "cms", "payment"]
+  },
+  {
+    "id": "txn_099",
+    "amount": 6100,
+    "description": "October CMS fraud - fake Laravel-based transaction",
+    "category": "octobercms_fraud",
+    "riskLevel": "MEDIUM",
+    "keywords": ["october", "cms", "fraud", "fake", "laravel-based", "transaction"]
+  },
+  {
+    "id": "txn_100",
+    "amount": 17200,
+    "description": "ProcessWire fraud - fake PHP CMS platform payment",
+    "category": "processwire_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["processwire", "fraud", "fake", "php", "cms", "platform", "payment"]
+  },
+  {
+    "id": "txn_101",
+    "amount": 14500,
+    "description": "Advanced persistent threat - sophisticated bank infiltration",
+    "category": "apt_fraud",
+    "riskLevel": "CRITICAL",
+    "keywords": ["advanced", "persistent", "threat", "sophisticated", "bank", "infiltration"]
+  },
+  {
+    "id": "txn_102",
+    "amount": 8900,
+    "description": "Supply chain fraud - fake vendor invoice manipulation",
+    "category": "supply_chain_fraud",
+    "riskLevel": "HIGH",
+    "keywords": ["supply", "chain", "fraud", "fake", "vendor", "invoice", "manipulation"]
+  }
+]

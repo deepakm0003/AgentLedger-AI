@@ -1,0 +1,192 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  emailVerified DateTime?
+  image         String?
+  passwordHash  String?
+  role          String    @default("COMPLIANCE")
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  accounts Account[]
+  sessions Session[]
+  transactions Transaction[]
+  reports  Report[]
+  alerts   Alert[]
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model Transaction {
+  id          String            @id @default(cuid())
+  userId      String
+  amount      Float
+  ip          String?
+  description String
+  embedding   String? // JSON string of vector embedding
+  riskLevel   String            @default("LOW")
+  isFraudulent Boolean          @default(false)
+  metadata    String? // JSON string of additional transaction metadata
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
+
+  user   User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  reports Report[]
+
+  @@index([riskLevel])
+  @@index([isFraudulent])
+  @@index([createdAt])
+  @@index([amount])
+}
+
+model Report {
+  id            String   @id @default(cuid())
+  transactionId String
+  userId        String
+  title         String
+  explanation   String
+  riskScore     Float
+  similarCases  String // JSON string of similar cases
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  transaction Transaction @relation(fields: [transactionId], references: [id], onDelete: Cascade)
+  user        User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  alerts      Alert[]
+}
+
+model Alert {
+  id        String      @id @default(cuid())
+  reportId  String?
+  userId    String
+  channel   String
+  message   String
+  status    String       @default("PENDING")
+  sentAt    DateTime?
+  createdAt DateTime    @default(now())
+
+  report Report? @relation(fields: [reportId], references: [id], onDelete: SetNull)
+  user   User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([status])
+  @@index([createdAt])
+}
+
+model UploadedFile {
+  id          String   @id @default(cuid())
+  filename    String
+  originalName String
+  size        Int
+  type        String
+  content     String // Parsed content
+  embedding   String? // JSON string of vector embedding
+  uploadedBy  String
+  createdAt   DateTime @default(now())
+
+  @@index([uploadedBy])
+  @@index([createdAt])
+}
+
+model CommunityStats {
+  id              String   @id @default(cuid())
+  totalUsers      Int      @default(0)
+  fraudDetected   Int      @default(0)
+  moneySaved      Float    @default(0)
+  successStories  Int      @default(0)
+  activeUsers     Int      @default(0)
+  totalTransactions Int    @default(0)
+  updatedAt       DateTime @updatedAt
+}
+
+model LeaderboardEntry {
+  id            String   @id @default(cuid())
+  userId        String
+  score         Float
+  fraudDetected Int
+  rank          Int
+  month         String
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@unique([userId, month])
+  @@index([rank])
+  @@index([month])
+}
+
+model SuccessStory {
+  id          String   @id @default(cuid())
+  title       String
+  description String
+  amountSaved Float
+  user        String
+  category    String
+  isVerified  Boolean  @default(false)
+  likes       Int      @default(0)
+  shares      Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([category])
+  @@index([isVerified])
+  @@index([createdAt])
+}
+
+model PerformanceMetric {
+  id            String   @id @default(cuid())
+  queryTime     Float
+  connections   Int
+  memoryUsage   Float
+  cpuUsage      Float
+  throughput    Float
+  timestamp     DateTime @default(now())
+
+  @@index([timestamp])
+}
+
+// Enums replaced with string fields for MySQL/TiDB compatibility

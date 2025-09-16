@@ -1,0 +1,29 @@
+[
+  {
+    "id": "tx-1",
+    "userId": "demo-user-1",
+    "amount": 1250.00,
+    "description": "Suspicious refund request from new customer",
+    "riskLevel": "HIGH",
+    "isFraudulent": true,
+    "createdAt": "2024-01-15T10:30:00.000Z"
+  },
+  {
+    "id": "tx-2",
+    "userId": "demo-user-1",
+    "amount": 89.99,
+    "description": "Regular purchase - electronics",
+    "riskLevel": "LOW",
+    "isFraudulent": false,
+    "createdAt": "2024-01-14T15:45:00.000Z"
+  },
+  {
+    "id": "tx-3",
+    "userId": "demo-user-1",
+    "amount": 2500.00,
+    "description": "Large transaction from overseas account",
+    "riskLevel": "MEDIUM",
+    "isFraudulent": false,
+    "createdAt": "2024-01-13T09:20:00.000Z"
+  }
+]

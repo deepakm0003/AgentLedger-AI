@@ -1,0 +1,12 @@
+[
+  {
+    "id": "report-1",
+    "userId": "demo-user-1",
+    "transactionId": "tx-1",
+    "title": "High Risk Refund Analysis",
+    "explanation": "Multiple red flags detected: new customer, high amount, unusual timing",
+    "riskScore": 85,
+    "riskLevel": "HIGH",
+    "createdAt": "2024-01-15T11:00:00.000Z"
+  }
+]

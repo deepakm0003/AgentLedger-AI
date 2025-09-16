@@ -1,0 +1,11 @@
+[
+  {
+    "id": "alert-1",
+    "userId": "demo-user-1",
+    "reportId": "report-1",
+    "channel": "EMAIL",
+    "message": "High risk transaction detected requiring immediate review",
+    "status": "DELIVERED",
+    "createdAt": "2024-01-15T11:05:00.000Z"
+  }
+]
